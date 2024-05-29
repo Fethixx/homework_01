@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.homeBody {
+  width: 100%;
+  height: 100vh;
+}
+.homeBody .navBar {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+}
+.homeBody .navBar .menu {
+  min-width: calc(100% - 90px);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  float: left;
+}
+.homeBody .navBar .menu > li {
+  list-style: none;
+}
+.homeBody .navBar .menu > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.homeBody .navBar .menu2 {
+  width: 90px;
+  float: right;
+}
+.homeBody .navBar .menu2 > li {
+  list-style: none;
+}
+.homeBody .navBar .menu2 > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+/*  home.css */
+.header {
+  display: flex;
+  width: 100%;
+  height: 290px;
+}
+.header .containerLeft {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+  height: 100%;
+  background-color: aquamarine;
+  opacity: 0.8;
+  align-items: center !important;
+  text-align: center !important;
+}
+.about {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
+.products {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
+.mission {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
+.contact {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  background-color: aquamarine;
+  position: fixed;
+  margin-top: 100px;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+}
+
+/*  hakkimizda.css */
+.magazamiz {
+  display: flex;
+  width: 100%;
+  height: 650px;
+  background-image: url(assets/magazamiz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hakkimizdaSection {
+  display: flex;
+  width: 90%;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  padding: 40px;
+}
+.hakkimizdaSection .container .hakkimizda-content {
+  margin-bottom: 30px;
+}
+
+/*  urunler.css */
+.urunler {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 40px;
+}
+.urunler .urun {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+  margin-bottom: 100px;
+}
+.urunler .urun .urun-resim {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.urunler .urun .sepet {
+  width: 20px;
+  height: 20px;
+}
+.urunler .urun .sepete-ekle {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.urunler .urun .sepete-ekle {
+  display: block;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  position: relative;
+  background: #0652dd;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  overflow: hidden;
+  transition: transform 0.1s;
+  z-index: 1;
+}
+.urunler .urun .sepete-ekle:hover {
+  transform: scale(1.1);
+}
+.urunler .urun .sepete-ekle span {
+  color: #fff;
+  background: #0652dd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*  misyon.css */
+.vizyon {
+  display: flex;
+  width: 100%;
+  height: 650px;
+  background-image: url(assets/vizyon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*  iletisim.css */
+.iletisimHeader {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url(assets/iletisim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.iletisim {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  text-align: center !important;
+}
+.iletisim .container {
+  width: 40%;
+  height: 70%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.iletisim .container a .sosyalMedya {
+  width: 32px;
+  height: 32px;
+}
